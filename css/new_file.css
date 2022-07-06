@@ -8,16 +8,10 @@
 	
 }
 
-.btn1{
-	position: relative;
-	max-width: 300px;
-	max-height: 100px;
-}
-
 .div1{
 	position: absolute;
-	width: 1898px;
-	height: 1080px;
+	width: 100%;
+	height: 100%;
 	margin: auto;
 	left: 0;
 	right: 0;
@@ -26,9 +20,12 @@
 }
 
 .div2{
-	position: relative;
+	position: absolute;
 	max-width: 300px;
 	max-height: 100px;
-	left: 800px;
-	top: 450px;
+	margin: auto;
+	left: -170px;
+	right: 0;
+	top: 0;
+	bottom: 0;
 }
